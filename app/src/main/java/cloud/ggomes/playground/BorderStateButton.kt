@@ -44,7 +44,7 @@ class BorderStateButton: AppCompatButton {
             typedArray.getInt(R.styleable.BorderStateButton_initial_state, 0))
 
         // Set the outline color (same as text color)
-        outlinePaint.color = if (borderColor == -1) textColor else borderColor
+        outlinePaint.color = if (borderColor == -1) backgroundColor else borderColor
         outlinePaint.style = Paint.Style.STROKE
         outlinePaint.strokeWidth = borderWidth // Adjust the outline width as needed
 
