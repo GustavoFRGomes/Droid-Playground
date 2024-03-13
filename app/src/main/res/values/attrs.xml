@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="BorderStateButton">
+        <attr name="android:textColor" />
+        <attr name="android:background" />
+        <attr name="borderColor" format="color" />
+        <attr name="borderWidth" format="dimension" />
+        <attr name="initial_state" format="enum">
+            <enum name="filled" value="0" />
+            <enum name="outlined" value="1" />
+        </attr>
+        <!-- TODO: Add radius later on
+        <attr name="borderRadius" format="dimension" />
+        -->
+    </declare-styleable>
+</resources>
